@@ -89,3 +89,61 @@ header {
     font-weight: 700;
     border-radius: 5px;
 }
+
+.services-page{
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.services-row {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.services-head h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #212529;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.services-head h3 {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 4rem;
+    color: #6c757d 
+}
+
+.ico-container {
+    padding:23px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../assets/img/circle-solid.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+.services-row .fas{
+    font-size: 50px;
+    color: white;
+}
+
+.services-row h4 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #212529;
+}
+
+.services-row p {
+    line-height: 1.75;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #6c757d;
+}
