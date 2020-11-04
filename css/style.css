@@ -90,9 +90,9 @@ header {
     border-radius: 5px;
 }
 
-.services-page{
+section {
+    padding: 6rem 5% ; 
     text-align: center;
-    padding: 6rem 0;
 }
 
 .services-row {
@@ -100,7 +100,7 @@ header {
     grid-template-columns: 100%;
 }
 
-.services-head h2 {
+.page-head h2 {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
@@ -110,7 +110,7 @@ header {
     text-transform: uppercase;
 }
 
-.services-head h3 {
+.page-head h3 {
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -146,4 +146,59 @@ header {
     margin-top: 0;
     margin-bottom: 1rem;
     color: #6c757d;
+}
+
+.portfolio-page  {
+    background-color: #f8f9fa;
+}
+
+.portfolio-item {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-link {
+    width: 400px;
+    position: relative;
+}
+
+.portfolio-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 209, 54, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+    font-size:80px ;
+    color: white;
+}
+
+.portfolio-caption {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.portfolio-caption h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.portfolio-caption p {
+   font-style: italic;
+   font-family: serif;
+   color: #6c757d ;
+   font-size: 1.1rem;
+   margin: 0;
+   line-height: 1.5;
+
+}
+
+.portfolio-link:hover .portfolio-hover{
+    opacity: 1;
 }
