@@ -154,14 +154,18 @@ section {
 
 .portfolio-item {
     background-color: white;
-    width: 400px;
+    width: 300px;
     margin: auto;
     margin-bottom: 1.5rem;
 }
 
 .portfolio-link {
-    width: 400px;
+    width: 300px;
     position: relative;
+}
+
+.portfolio-link img {
+    max-width: 100%;
 }
 
 .portfolio-hover {
@@ -201,4 +205,67 @@ section {
 
 .portfolio-link:hover .portfolio-hover{
     opacity: 1;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+}
+
+.timeline > li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+.timeline-img  {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius:50%;
+    background-color: #fed136;
+}
+
+.timeline-text {
+    position: relative;
+    padding: 0 20px 0 115px;
+    text-align: left;
+}
+
+.timeline-heading h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.timeline-heading .subheading {
+    line-height: 1;
+}
+
+.timeline-body p {
+    color: #6c757d;
+    line-height: 1.75;
 }
