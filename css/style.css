@@ -269,3 +269,66 @@ section {
     color: #6c757d;
     line-height: 1.75;
 }
+
+.timeline-img h4 {
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 4px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.team-page {
+    background-color: #f8f9fa;
+}
+
+.member {
+    margin-bottom: 3rem;
+}
+
+.member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.member h4 {
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.member p {
+    line-height: 1.75;
+    margin-bottom: 1rem;
+    margin-top:0.3rem ;
+    color: #6c757d ;
+    font-family: serif;
+    font-size: 1.1rem;
+}
+
+.media div {
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #343a40;
+    border-radius: 50%;
+    border-color: #343a40;
+    margin: 0 4px;
+}
+
+.media a {
+    text-align: center;
+    color: white;
+}
+
+.media .fab {
+    padding-top: 0.8rem;
+}
+
+.team-describe p {
+    line-height: 1.7rem;
+    color: #6c757d ;
+}
