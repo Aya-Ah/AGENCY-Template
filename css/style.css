@@ -125,8 +125,8 @@ section {
 
 .ico-container {
     padding:23px;
-    width: 55px;
-    height: 55px;
+    width: 105px;
+    height: 105px;
     background-image: url(../assets/img/circle-solid.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -389,4 +389,23 @@ section {
     background-color: #fed136;
     border-color: #fed136;
     text-transform:uppercase ;
+}
+
+footer {
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+footer .media {
+    margin: 1rem 0;
+}
+
+.footer-links a {
+    margin-right: 1rem;
+    color: #fed136;
+    text-decoration: none;
 }
