@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     box-sizing: border-box;
     font-family: "arial";
@@ -219,7 +223,7 @@ section {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    left: 50px;
     width: 2px;
     margin-left: -1.5px;
     content: "";
@@ -234,18 +238,23 @@ section {
     margin-bottom: 50px;
 }
 
-.timeline-img  {
+.timeline-img {
     position: absolute;
     z-index: 10;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 8px solid #e9ecef;
     border-radius:50%;
     background-color: #fed136;
+}
+
+.timeline-img:hover {
+    border: 3px solid #e9ecef;
+    transition: all 0.1s ease-in-out;
 }
 
 .timeline-text {
