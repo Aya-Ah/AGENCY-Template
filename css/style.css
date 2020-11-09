@@ -332,3 +332,52 @@ section {
     line-height: 1.7rem;
     color: #6c757d ;
 }
+
+.logos {
+    padding: 3rem 0;
+}
+
+.logos-item img {
+    display: block;
+    margin: 10px auto;
+}
+
+.contact {
+    background-color: #212529;
+    background-image: url(../assets/img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact input, textarea {
+    display: block;
+    width: 90%;
+    padding:1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: 25px 0px;
+}
+
+.contact::placeholder {
+    color:#495057 ;
+}
+
+.contact button {
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    text-transform:uppercase ;
+}
