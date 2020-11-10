@@ -429,6 +429,19 @@ footer .media {
         margin: 0;
     }
 
+    .container {
+        padding: 15px 12%;
+    }
+
+    section {
+        padding: 6rem 12%;
+    }
+
+    .logos {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -448,6 +461,14 @@ footer .media {
         font-style: italic;
         line-height: 2.25rem;
         margin-bottom: 2rem;
+    }
+
+    .container {
+        padding: 15px 5%;
+    }
+
+    section {
+        padding: 6rem 5%;
     }
 
     .services-row {
@@ -482,6 +503,27 @@ footer .media {
         grid-column: 2;
         text-align: left;
         padding: 0 10px 10px 115px;
+    }
+
+    .logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: start;
+    }
+
+    .logos-item img {
+        width: 156px;
+        height: 39px;
+    }
+
+    .form-row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .form-row textarea {
+       height: 250px;
     }
 }
 
