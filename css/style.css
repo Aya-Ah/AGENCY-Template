@@ -431,3 +431,57 @@ footer .media {
 
 }
 
+@media screen and (min-width:768px) {
+    header {
+        padding: 17rem 0rem 12.5rem;
+    }
+
+    .main-heading  {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+    
+    .sub-heading{
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-row {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1.5rem;
+    }
+
+    .timeline {
+        width: 100%;
+    }
+
+    .timeline:before {
+       left: 50%;
+    }
+
+    .timeline > li {
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+    }
+
+    .timeline img , .timeline-img{
+        grid-column: 2;
+    }
+
+    .timeline-text {
+        padding: 0 10px 10px 15px;
+        text-align: right;
+    }
+
+    .right-timeline .timeline-text {
+        grid-column: 2;
+        text-align: left;
+        padding: 0 10px 10px 115px;
+    }
+}
+
