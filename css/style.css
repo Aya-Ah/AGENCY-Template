@@ -67,6 +67,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
+    background-attachment: scroll;
+    background-position: center center;
 }
 
 .sub-heading {
@@ -158,13 +160,15 @@ section {
 
 .portfolio-item {
     background-color: white;
-    width: 300px;
+    width:100%;
+    max-width: 400px;
     margin: auto;
     margin-bottom: 1.5rem;
 }
 
 .portfolio-link {
-    width: 300px;
+    width:100%;
+    max-width: 400px;
     position: relative;
 }
 
@@ -409,3 +413,21 @@ footer .media {
     color: #fed136;
     text-decoration: none;
 }
+
+@media screen and (min-width: 575px) {
+    header {
+        padding: 198px 0px 128px;
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1.5rem;
+    }
+
+    .portfolio-item {
+        margin: 0;
+    }
+
+}
+
