@@ -12,3 +12,17 @@ function toggleNav() {
         toggleNavStatus= false;
     }
 }
+
+
+let getNav =  document.getElementById("navbar");
+
+function scrollFunction() {
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+        getNav.classList.add("With-background");
+    }
+       
+   else {
+        getNav.classList.remove("With-background");
+   }
+}
+window.onscroll = function() {scrollFunction()};
