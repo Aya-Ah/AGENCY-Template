@@ -597,3 +597,13 @@ footer .media {
         padding-top: 30px;
     }
 }
+
+@media screen and (min-width:1200px) {
+    .container {
+        padding: 15px 12%;
+    }
+
+    section {
+        padding: 6rem 12%;
+    }
+}
