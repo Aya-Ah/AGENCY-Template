@@ -463,14 +463,6 @@ footer .media {
         margin-bottom: 2rem;
     }
 
-    .container {
-        padding: 15px 5%;
-    }
-
-    section {
-        padding: 6rem 5%;
-    }
-
     .services-row {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -527,3 +519,81 @@ footer .media {
     }
 }
 
+@media screen and (min-width:991px) {
+    .btn-toglge-nav {
+        display: none;
+    }
+
+    nav {
+        grid-template-columns: auto auto;
+    }
+
+    nav ul {
+        display: flex;
+        margin-left: 25%;
+        justify-content: space-between;
+    }
+
+    nav li {
+        padding: 8px;
+    }
+
+    header {
+        padding: 18rem 0rem 14.5rem;
+    }
+
+    .container {
+        padding: 15px 5%;
+    }
+
+    section {
+        padding: 6rem 5%;
+    }
+
+    nav {
+        background-color: transparent;
+        transition: padding-top 0.3s;
+    } 
+
+    .With-background {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+
+    .portfolio-container {
+        grid-template-columns: auto auto auto;
+    }    
+
+    .timeline-img  {
+        width: 136px;
+        height: 136px;
+    }
+
+    .right-timeline .timeline-text {
+        padding: 0 10px 10px 155px;
+    }
+
+    .timeline-img h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .team-members{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .team-describe{
+        margin: 0 17%;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .copyright , .footer-links {
+        padding-top: 30px;
+    }
+}
